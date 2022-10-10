@@ -1,7 +1,7 @@
 # pytest_framework
 All settings are setup in this project for a beginer to learn pytest.
 
-# API Automation BlackBox
+# Pytest Project Setup
 
 Before running the app assuming that **python 3.7.9** , **mysql** and [virutalenv](http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/) is installed on machine
 
