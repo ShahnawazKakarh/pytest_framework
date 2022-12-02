@@ -11,7 +11,7 @@ password = "testQa@123"
 def random_email():
     fake = Faker()
     email = fake.email()
-    return 'testqa_autotest_ent{email}'.format(email=email)
+    return 'testqa_autotest{email}'.format(email=email)
 
 
 # Sign Up Data for Entertainer
@@ -21,23 +21,13 @@ def data_for_sign_up_api_call():
 
     data = {
         "company": "",
-        "__platform": "ios",
-        "app_version": "6.23.01",
-        "language": "en",
         "email": email_random,
         "password": password,
         "confirm_password": password,
         'firstname': "Automation",
         'lastname': fake.last_name(),
-        'terms_acceptance': 1,
-        "country_of_residence": "AE",
-        'is_privacy_policy_accepted': 1,
-        'os_version': "12.3.1",
         'gender': 'MALE',
-        'device_os': 'ios',
-        'device_model': 'iPhoneX',
-        '__device_id': device_key,
-        'is_user_agreement_accepted': 1,
+        'device': device_key
     }
 
     return data
