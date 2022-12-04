@@ -1,4 +1,4 @@
-IP_ENT = 'jdkservices.com'
+IP = 'jdkservices.com'
 
 SQL_PORT = '6033'
 SQL_HOST = '12.15.15.908'
